@@ -146,9 +146,12 @@ export default function App() {
               <p className="text-xs text-gray-500 mt-2">Pagamento único · Acesso imediato e vitalício</p>
             </div>
 
-            <button className="w-full mt-8 bg-gradient-to-br from-soccer-green to-soccer-green-dark text-black font-display text-2xl tracking-widest py-5 rounded-lg btn-pulse hover:scale-[1.02] transition-transform uppercase">
+            <a 
+              href="https://pay.cakto.com.br/knzs882_797210"
+              className="block w-full mt-8 bg-gradient-to-br from-soccer-green to-soccer-green-dark text-black font-display text-2xl tracking-widest py-5 rounded-lg btn-pulse hover:scale-[1.02] transition-transform uppercase text-center"
+            >
               Quero o Código da Jogada agora
-            </button>
+            </a>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mt-6 text-[11px] text-gray-500">
               <span className="flex items-center gap-1"><Lock size={12} /> Pagamento seguro</span>
@@ -335,9 +338,12 @@ export default function App() {
           <h2 className="font-display text-5xl md:text-7xl uppercase mb-10">Não deixe seu <span className="text-soccer-green italic">sucesso</span> para depois</h2>
           
           <div className="max-w-xl mx-auto">
-            <button className="w-full bg-gradient-to-br from-soccer-green to-soccer-green-dark text-black font-display text-3xl tracking-widest py-6 rounded-lg btn-pulse hover:scale-[1.02] transition-transform uppercase">
+            <a 
+              href="https://pay.cakto.com.br/knzs882_797210"
+              className="block w-full bg-gradient-to-br from-soccer-green to-soccer-green-dark text-black font-display text-3xl tracking-widest py-6 rounded-lg btn-pulse hover:scale-[1.02] transition-transform uppercase text-center"
+            >
               Quero o Código da Jogada agora
-            </button>
+            </a>
             <div className="flex flex-wrap items-center justify-center gap-6 mt-8 text-xs text-gray-500">
               <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-soccer-green" /> 7 dias de garantia</span>
               <span className="flex items-center gap-1"><Lock size={14} className="text-soccer-green" /> Compra 100% segura</span>
@@ -374,9 +380,12 @@ export default function App() {
               </div>
             </div>
 
-            <button className="w-full bg-soccer-orange text-white font-display text-xl tracking-widest py-4 rounded-lg hover:bg-opacity-90 transition-all uppercase">
+            <a 
+              href="https://pay.cakto.com.br/3ceaa9w_806547"
+              className="block w-full bg-soccer-orange text-white font-display text-xl tracking-widest py-4 rounded-lg hover:bg-opacity-90 transition-all uppercase text-center"
+            >
               Quero o Essencial por R$ 14,90
-            </button>
+            </a>
           </div>
         </div>
       </section>
